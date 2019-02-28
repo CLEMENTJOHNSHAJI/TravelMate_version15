@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="231dp"
+        android:layout_height="114dp"
+        android:text="TextView"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="198dp"
+        tools:text="If you are ready, press confirm" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Summary"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="142dp"
+        tools:layout_editor_absoluteY="133dp" />
+
+    <Button
+        android:id="@+id/conf_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:text="Confirm"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="152dp"
+        tools:layout_editor_absoluteY="312dp" />
+
+    <Button
+        android:id="@+id/return_button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:text="Return"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="160dp"
+        tools:layout_editor_absoluteY="377dp" />
+</android.support.constraint.ConstraintLayout>

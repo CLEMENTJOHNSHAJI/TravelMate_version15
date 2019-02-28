@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Main_Layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TravelMate"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024" />
+
+    <Button
+        android:id="@+id/traveler_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Traveler's Menu"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="98dp"
+        tools:layout_editor_absoluteY="229dp" />
+
+    <Button
+        android:id="@+id/driver_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Driver's Menu"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="154dp" />
+
+    <Button
+        android:id="@+id/booking_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Booking"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="301dp" />
+
+</android.support.constraint.ConstraintLayout>
